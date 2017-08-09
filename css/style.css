@@ -457,7 +457,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 /*-- //services --*/
 /*-- team --*/
-.team{
+.sponsor{
 	background:url(../images/11.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
@@ -908,7 +908,7 @@ button.btn1:hover {
 /*-- responsive --*/
 @media(max-width:1440px){
 	.banner {
-		background: url(../images/1.jpg) no-repeat 0px 0px;
+		background: url(../images/EqualsEquals/Banner.jpg) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
