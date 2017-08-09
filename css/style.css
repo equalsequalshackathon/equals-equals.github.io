@@ -457,15 +457,15 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 /*-- //services --*/
 /*-- team --*/
-.sponsor{
-	background:url(../images/11.jpg) no-repeat 0px 0px;
-	background-size:cover;
+.team{
+	/*background:url(../images/11.jpg) no-repeat 0px 0px;
+	background-size:cover;*/
 }
 .jarallax {
-    position: relative;
+    /*position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 .team-heading h3{
 	color:#FFFFFF;
