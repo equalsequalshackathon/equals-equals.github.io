@@ -1,0 +1,68 @@
+.person{
+  position:absolute;
+  z-index:-1;
+}
+
+.person.nicholas-lugo{
+  width:100px;
+  left:-52px;
+  top:-130px;
+}
+.person.computer{
+  right:200px;
+  height:75px;
+  top:-75px;
+}
+.person.black-girl{
+  transform:translateY(-50%);
+  width:15%;
+  left:-22%;
+  top:80%;
+}
+.person.waving{
+  width:8%;
+  right:0;
+}
+.person.thumbs-up{
+  height:200px;
+  top:-200px;
+  right:25px;
+}
+.person.sleeping{
+  height:50px;
+  top:-50px;
+  left:5px;
+}
+.person.redhead{
+  width:15%;
+  right:-25%;
+  top:50%;
+}
+.person.java{
+  height:100px;
+  top:-100px;
+  left:80px;
+}
+.person.mouse{
+  z-index:auto;
+  height:100px;
+  right:160px;
+  top:-45px;
+}
+.person.asian-girl{
+  transform:translateY(-50%);
+  width:15%;
+  left:-19%;
+  top:50%;
+}
+.person.laptop{
+  height:60px;
+  top:-60px;
+  left:50px;
+}
+.person.meditating{
+  z-index:auto;
+  right:200px;
+  height:200px;
+  top:-200px;
+}
