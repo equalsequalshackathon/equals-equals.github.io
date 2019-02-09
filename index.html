@@ -1,0 +1,339 @@
+<!DOCTYPE html><html><head><!-- Built with WebStatic v1 -->
+	<title>EqualsEquals Hackathon</title>
+	<meta charset="utf-8">
+	<script src="jquery.min.js"></script>
+	<script src="scrolling.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<link rel="icon" href="images/earth.ico">
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="values.css">
+	<link rel="stylesheet" href="content-box.css">
+	<link rel="stylesheet" href="people.css">
+</head>
+<body>
+	<div class="component navbar"><img class="icon" src="images/earth.svg">
+<span class="headers">
+  <span class="head" dest="about">About</span> |
+  <span class="head" dest="schedule">Schedule</span> |
+  <span class="head" dest="staff">Staff</span> |
+  <span class="head" dest="sponsors">Sponsors</span> |
+  <span class="head" dest="contact">Contact</span>
+</span>
+
+<style>
+
+  .navbar{
+    --img-rad:calc(var(--img-side) / 2);
+    z-index:1;
+    padding:var(--img-pad) 0;
+    background-color:var(--green);
+    color:var(--dkGreen);
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:var(--navbar-font);
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+  }
+
+  .component.navbar .icon{
+    cursor:pointer;
+    position:absolute;
+    height:auto;
+    width:var(--img-side);
+    left:var(--img-pad);
+    top:calc(var(--navbar-h) - var(--img-rad));
+    border:solid 2px var(--gray);
+    border-radius:100%;
+  }
+  .component.navbar .headers{
+    --left:calc(var(--img-side) + calc(var(--img-pad) * 2));
+    width:calc(100% - var(--left));
+    position:relative;
+    left:var(--left);
+  }
+
+  .component.navbar .head{
+    cursor:pointer;
+    color:white;
+  }
+
+</style>
+</div>
+	<div class="container content">
+		<div class="row component logo-space"><img src="images/banner.svg">
+
+<style>
+
+  .logo-space{
+    padding:var(--logo-padding) 0;
+    text-align:center;
+    position:relative;
+  }
+  .component.logo-space img{
+    height:var(--logo-h);
+    width:auto;
+  }
+
+</style>
+</div>
+		<div class="row" style="text-align:center">
+			<!--<a class="register" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Register</a>-->
+			<div class="component register"><h1>Pick a registration:</h1>
+<a href="https://docs.google.com/forms/d/1yuCPTJfPINwEN4dohLnk4i5j21qc5TzzT3Jrpg3bd44">Hacker</a>
+<a href="https://docs.google.com/forms/d/1tumM3dsXz6F6Ki3CtrzYGBnnQR5rpXJL5GvHv5NdBws">Volunteer</a>
+
+<style>
+
+.register{
+  margin-bottom:75px;
+  text-align:center;
+}
+.component.register h1{
+  font-family:sans-serif;
+  color:var(--green);
+  font-weight:bold;
+  font-size:40px;
+}
+.component.register a{
+  margin:0px 60px;
+  transition:background-color 0.2s ease;
+  background-color:var(--green);
+  font-family:sans-serif;
+  text-decoration:none;
+  display:inline-block;
+  border-radius:25px;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:50px;
+  padding:20px;
+  color:white;
+}
+.component.register a:hover{
+  background-color:var(--dkGreen);
+}
+</style>
+</div>
+			<img class="person waving" src="people/waving.svg">
+		</div>
+		<div class="row content-box" id="about">
+			<h1>EqualsEquals Hackathon</h1>
+			<span>(What is EqualsEquals?)</span>
+			<table><tbody><tr>
+				<td>
+					<img class="icon" src="images/laptop.svg"><br>
+					Equals Equals is a new kind of hackathon meant to introduce and expose underrepresented minorities to careers in technology and technology entrepreneurship. It&apos;s kind of like a design sprint and a hackathon had a baby, and it&apos;s name was Equals Equals.
+				</td><td>
+					<img class="icon" src="images/send.svg"><br>
+					Community and inclusion breeds innovation, excitement, and motivation to solve some pretty tough problems.
+				</td><td>
+					<img class="icon" src="images/public.svg"><br>
+					Our hope is that this event will not only get underrepresented groups excited about technology and it&apos;s capabilities, but also about the impact it can have on the issues and communities that they are most passionate about.
+				</td>
+			</tr></tbody></table><br>
+			<p>EqualsEquals was founded by our benevolent ruler Sean:</p>
+			<img src="images/sean.jpg" style="border-radius:25px;height:200px;width:auto">
+		</div>
+
+		<div class="row content-box" id="schedule">
+			<img class="content-icon" src="images/schedule.svg" title="Make time for EqualsEquals!">
+			<h1>Schedule</h1>
+			<p>
+				Here&apos;s our official schedule for the 2018 EqualsEquals hackathon event:
+			</p><br>
+			<div class="component schedule"><table>
+  <tbody><tr><td>Saturday</td><td>8:30 AM</td><td>Check-in</td></tr>
+	<tr><td></td><td>9:00 AM</td><td>Breakfast</td></tr>
+	<tr><td></td><td>10:00 AM</td><td>Opening Ceremony &amp; Sponsor intro</td></tr>
+	<tr><td></td><td>11:00 AM</td><td>Hacking Begins</td></tr>
+	<tr><td></td><td>11:00 AM</td><td>Team Formation</td></tr>
+	<tr><td></td><td>11:30 AM</td><td>Hackathon intro workshop</td></tr>
+	<tr><td></td><td>1:00 PM</td><td>Lunch</td></tr>
+	<tr><td></td><td>2:00 PM</td><td>Open workshop spot</td></tr>
+	<tr><td></td><td>2:30 PM</td><td>Intro to Data Science and Analysis</td></tr>
+	<tr><td></td><td>3:00 PM</td><td>Web App tutorial</td></tr>
+	<tr><td></td><td>3:30 PM</td><td>Open workshop spot</td></tr>
+	<tr><td></td><td>4:00 PM</td><td>Fun activity</td></tr>
+	<tr><td></td><td>5:00 PM</td><td>AR/VR tutorial</td></tr>
+	<tr><td></td><td>6:00 PM</td><td>Dinner</td></tr>
+	<tr><td></td><td>7:00 PM</td><td>Open workshop spot</td></tr>
+	<tr><td></td><td>8:00 PM</td><td>Cybersecurity tutorial</td></tr>
+	<tr><td></td><td>9:00 PM</td><td>Fun activity</td></tr>
+	<tr><td></td><td>10:00 PM</td><td>Snack</td></tr>
+  <tr><td>Sunday</td><td>12:00 AM</td><td>Surprise</td></tr>
+	<tr><td></td><td>8:30 AM</td><td>Breakfast</td></tr>
+	<tr><td></td><td>9:30 AM</td><td>How to submit your hack</td></tr>
+	<tr><td></td><td>11:00 AM</td><td>Hacking Ends</td></tr>
+	<tr><td></td><td>12:00 PM</td><td>Demos</td></tr>
+	<tr><td></td><td>1:30 PM</td><td>Closing ceremony</td></tr>
+</tbody></table>
+
+
+<style>
+
+.component.schedule table{
+  border-spacing:0;
+  text-align:left;
+  width:100%;
+}
+.component.schedule td{
+  font-weight:bold;
+  font-size:15px;
+  padding:5px;
+}
+.component.schedule tr:nth-of-type(2n+1){
+  background-color:#e5e5e5;
+}
+
+</style>
+</div>
+			<img class="person nicholas-lugo" src="people/nicholas-lugo.svg">
+			<img class="person computer" src="people/computer.svg">
+			<img class="person black-girl" src="people/black-girl.svg">
+		</div>
+
+		<div class="row content-box" id="staff">
+			<h1>Staff</h1>
+			<span>(The nerds who made this possible)</span>
+			<div class="component profiles"><h2>Administration:</h2>
+<img src="profiles/sean-brown.svg" title="Sean Brown">
+<img src="profiles/tami.svg" title="Tami Olafunmiloye">
+
+<br><br>
+
+<h2>Web Developers:</h2>
+<img src="profiles/alex-lugo.svg" title="Alex Lugo">
+<img src="profiles/kelly-ngo.svg" title="Kelly Ngo">
+<img src="profiles/tomer-krayzman.svg" title="Tomer Krayzman">
+<img src="profiles/chidi-udeze.svg" title="Chidi Udeze">
+<img src="profiles/bobby-ekwunazu.svg" title="Bobby Ekwunazu">
+
+<br><br>
+
+<h2>Staff:</h2>
+<img src="profiles/rutu-ataliya.svg" title="Rutu Ataliya">
+<img src="profiles/austin-brady.svg" title="Austin Brady">
+<img src="profiles/corey-matthew.svg" title="Corey Matthew">
+
+<br><br>
+
+<h2>And a special thanks to:</h2>
+<img src="profiles/coffee.svg" title="Lots of coffee">
+
+<style>
+
+.component.profiles img{
+  height:auto;
+  width:80px;
+  padding:10px;
+}
+
+</style>
+</div>
+			<img class="person thumbs-up" src="people/thumbs-up.svg">
+			<img class="person sleeping" src="people/sleeping.svg">
+			<img class="person redhead" src="people/redhead.svg">
+		</div>
+
+		<div class="content-box" id="sponsors">
+			<img class="content-icon" src="images/thumb_up.svg" title="Thank you sponsors!">
+			<h1>Sponsors</h1>
+			<span>(And now a word from our sponsors)</span>
+			<h2>Top donations:</h2>
+			<div>
+				<img class="sponsor" src="sponsors/google.png">
+				<img class="sponsor" src="sponsors/doGoodChallenge.jpg">
+				<img class="sponsor" src="sponsors/mlh.png">
+				<img class="sponsor" src="sponsors/see.jpg">
+			</div>
+			<br>
+			<span>Or click <a href="sponsors">here</a> to see our full sponsors list</span>
+			<img class="person asian-girl" src="people/asian-girl.svg">
+			<img class="person mouse" src="people/mouse.svg">
+			<img class="person java" src="people/java.svg">
+		</div>
+
+		<div class="row content-box" id="contact">
+			<h2 style="text-align:center;margin-top:20px">Find us on social media!</h2>
+			<div class="component social-media"><table>
+  <tbody><tr>
+    <td>
+      <a href="https://twitter.com/_EqualsEquals">
+        <img src="images/twitter.svg" title="Twitter">
+      </a>
+    </td>
+    <td>
+      <a href="https://www.facebook.com/equalsequalshackathon/">
+        <img src="images/facebook.svg" title="Facebook">
+      </a>
+    </td>
+    <td>
+      <a href="https://www.instagram.com/_equalsequals/">
+        <img src="images/instagram.svg" title="Instagram">
+      </a>
+    </td>
+    <td>
+      <a href="mailto:hackequalsequals@gmail.com">
+        <img src="images/email.svg" title="Email">
+      </a>
+    </td>
+  </tr>
+</tbody></table>
+
+<style>
+
+.social-media{
+  text-align:center;
+}
+.component.social-media table{
+  width:100%;
+}
+.component.social-media img{
+  height:auto;
+  width:75px;
+}
+
+</style>
+</div>
+			<img class="person laptop" src="people/laptop.svg">
+			<img class="person meditating" src="people/meditating.svg">
+		</div>
+
+		<div class="row component footer"><!--<img src="images/landscape.jpg">--><img src="people/group.svg">
+<div class="signature">
+    Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
+    Website by <a href="http://alexlugo.net/webdesign">Alex Lugo</a>
+</div>
+
+<style>
+
+  .component.footer .signature{
+    text-align:center;
+    margin-top:-4px;
+    font-family:sans-serif;
+    background-color:black;
+    color:var(--white);
+    font-size:18px;
+    padding:5px;
+    width:100%;
+    left:0;
+  }
+  .component.footer img{
+    width:100%;
+  }
+  .component.footer a{
+    transition:color 0.2s ease;
+    text-decoration:none;
+    color:var(--blue);
+  }
+  .component.footer a:hover{
+    color:var(--dkBlue);
+  }
+
+</style>
+</div>
+	</div>
+
+
+</body></html>
