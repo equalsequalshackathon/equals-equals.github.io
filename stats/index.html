@@ -95,6 +95,11 @@
 
     var options = {
       "cutoutPercentage": 50,
+      "title":{
+        text:"Gender",
+        display:true,
+        fontSize:30
+      }
     }
 
     var ctx = document.querySelector("#chartGender");
@@ -144,58 +149,43 @@
 
       var data = {
         "datasets": [{
-          label: "Major Distribution",
           data: [
             //r: (number of majors + 10)
-            {x: 30, y: 30, r: 63},
-            {x: 32, y: 32, r: 16},
-            {x: 28, y: 33, r: 14},
-            {x: 27, y: 25, r: 15},
-            {x: 32, y: 27, r: 13},
-            {x: 31, y: 28, r: 12},
-            {x: 28.75, y: 32, r: 12},
-            {x: 26, y: 26, r: 11},
-            {x: 28, y: 29, r: 11},
-            {x: 26, y: 33, r: 11}],
+            {x: 30, y: 30, r:53+10},
+            {x: 32, y: 32, r: 6+10},
+            {x: 28, y: 33, r: 4+10},
+            {x: 27, y: 25, r: 5+10},
+            {x: 32, y: 27, r: 3+10},
+            {x: 31, y: 28, r: 2+10},
+            {x: 28.75,y:32,r: 2+10},
+            {x: 26, y: 26, r: 1+10},
+            {x: 28, y: 29, r: 1+10},
+            {x: 26, y: 33, r: 1+10}],
           backgroundColor: [
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")",
-            "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")"
+            "rgb(54, 162, 235)",
+            "rgb(54, 162, 235)",
+            "rgb(173, 255, 47)",
+            "rgb(255, 205, 86)",
+            "rgb(255, 0, 255)",
+            "rgb(255, 0, 255)",
+            "rgb(173, 255, 47)",
+            "rgb(255, 205, 86)",
+            "rgb(255, 99, 132)",
+            "rgb(255, 205, 86)"
           ],
           hoverBackgroundColor: "rgb(" + (Math.random() * 255) +", " + (Math.random() * 255) + ", " + (Math.random() * 255) + ")"
         }],
         "labels": [
+          "Information Science",
           "Computer Science",
           "Computer Engineering",
-          "Robotics",
-          "Information Science",
-          "Mechanical Engineering",
-          "Business Analytics",
-          "Electrical Engineering",
           "Finance",
-          "Economics",
-          "Physics"
+          "Mechanical Engineering",
+          "Electrical Engineering",
+          "Robotics",
+          "Business Analytics",
+          "Physics",
+          "Economics"
         ]
       }
 
@@ -207,6 +197,12 @@
               return label
             }
           }
+        },
+        "legend":{display:false},
+        "title":{
+          text:"Majors",
+          display:true,
+          fontSize:30
         },
         "scales": {
           "xAxes": [
