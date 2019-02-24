@@ -15,7 +15,10 @@
    version="1.1"
    id="svg34"
    sodipodi:docname="banner.svg"
-   inkscape:version="0.92.3 (d244b95, 2018-08-02)">
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
+   inkscape:export-filename="/home/alexander/Desktop/ee-logo.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs28" />
   <sodipodi:namedview
@@ -25,7 +28,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
+     inkscape:zoom="0.82"
      inkscape:cx="627.14282"
      inkscape:cy="395.88706"
      inkscape:document-units="mm"
@@ -86,7 +89,7 @@
        r="100" />
     <g
        id="g890"
-       transform="translate(74.708333,-35.153118)">
+       transform="translate(77.208333,-35.153118)">
       <circle
          r="70"
          style="fill:#6aeded;fill-opacity:1;stroke-width:0.26458332"
