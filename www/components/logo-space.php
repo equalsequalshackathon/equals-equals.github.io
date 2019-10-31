@@ -9,7 +9,7 @@
     text-align:center;
     position:relative;
   }
-  img{
+  .logo-space img{
     height:var(--logo-h);
     width:auto;
   }

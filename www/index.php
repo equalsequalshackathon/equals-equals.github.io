@@ -3,6 +3,7 @@
 <head>
 	<title>EqualsEquals Hackathon</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="An annual hackathon at the University of Maryland that promotes diversity in tech">
 	<meta name="keywords" content="equals equals,diversity in tech,equality,hackathon,hackathons,university of maryland,college park hackathons,diversity">
 	<script src="scripts/jquery.min.js"></script>
@@ -72,10 +73,10 @@
 			<span>(And now a word from our sponsors)</span>
 			<h2>Top donations:</h2>
 			<div>
-				<img class="sponsor" src="sponsors/google.png">
-				<img class="sponsor" src="sponsors/facebook.png">
-				<img class="sponsor" src="sponsors/capital-one.png">
-				<img class="sponsor" src="sponsors/accenture.png">
+				<img class="sponsor" src="sponsor-logos/google.png">
+				<img class="sponsor" src="sponsor-logos/facebook.png">
+				<img class="sponsor" src="sponsor-logos/capital-one.png">
+				<img class="sponsor" src="sponsor-logos/accenture.png">
 			</div>
 			<br>
 			<span>Or click <a href="sponsors">here</a> to see our full sponsors list</span>

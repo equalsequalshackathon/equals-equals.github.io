@@ -1,5 +1,5 @@
 
-<div>
+<div class="footer">
   <img src="people/group.svg">
   <div class="signature">
       Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
@@ -9,7 +9,7 @@
 
 <style>
 
-  .signature{
+  .footer .signature{
     text-align:center;
     margin-top:-4px;
     font-family:sans-serif;
@@ -20,15 +20,15 @@
     width:100%;
     left:0;
   }
-  img{
+  .footer img{
     width:100%;
   }
-  a{
+  .footer a{
     transition:color 0.2s ease;
     text-decoration:none;
     color:var(--blue);
   }
-  a:hover{
+  .footer a:hover{
     color:var(--dkBlue);
   }
 

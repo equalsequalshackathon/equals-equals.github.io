@@ -1,5 +1,5 @@
 
-<div>
+<div class="schedule">
   <table>
     <tr><td>Saturday, March 9th</td><td>8:30 AM</td><td>Check-in</td></tr>
   	<tr><td></td><td>9:00 AM</td><td>Breakfast</td></tr>
@@ -31,17 +31,17 @@
 
 <style>
 
-table{
+.schedule table{
   border-spacing:0;
   text-align:left;
   width:100%;
 }
-td{
+.schedule td{
   font-weight:bold;
   font-size:15px;
   padding:5px;
 }
-tr:nth-of-type(2n+1){
+.schedule tr:nth-of-type(2n+1){
   background-color:#e5e5e5;
 }
 

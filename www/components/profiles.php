@@ -1,4 +1,4 @@
-<div>
+<div class="profiles">
   <h2>Administration:</h2>
   <img src="profiles/sean-brown.svg" title="Sean Brown">
   <img src="profiles/tami.svg" title="Tami Olafunmiloye">
@@ -27,7 +27,7 @@
 
 <style>
 
-img{
+.profiles img{
   height:auto;
   width:80px;
   padding:10px;

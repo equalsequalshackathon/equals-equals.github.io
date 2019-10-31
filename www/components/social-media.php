@@ -1,4 +1,4 @@
-<div>
+<div class="social-media">
   <table>
     <tr>
       <td>
@@ -30,10 +30,10 @@
 .social-media{
   text-align:center;
 }
-table{
+.social-media table{
   width:100%;
 }
-img{
+.social-media img{
   height:auto;
   width:75px;
 }

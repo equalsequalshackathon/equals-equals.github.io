@@ -26,7 +26,7 @@
     top:0;
   }
 
-  .icon{
+  .navbar .icon{
     cursor:pointer;
     position:absolute;
     height:auto;
@@ -36,14 +36,14 @@
     border:solid 2px var(--gray);
     border-radius:100%;
   }
-  .headers{
+  .navbar .headers{
     --left:calc(var(--img-side) + calc(var(--img-pad) * 2));
     width:calc(100% - var(--left));
     position:relative;
     left:var(--left);
   }
 
-  .head{
+  .navbar .head{
     cursor:pointer;
     color:white;
   }

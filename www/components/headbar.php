@@ -1,7 +1,9 @@
-<a href=".." title="Main page">
-  <img class="icon" src="images/earth.svg">
-</a>
-<span class="title"></span>
+<div class="headbar">
+  <a href=".." title="Main page">
+    <img class="icon" src="images/earth.svg">
+  </a>
+  <span class="title"></span>
+</div>
 
 <style>
 
@@ -21,7 +23,7 @@
     top:0;
   }
 
-  .icon{
+  .headbar .icon{
     cursor:pointer;
     position:absolute;
     height:auto;

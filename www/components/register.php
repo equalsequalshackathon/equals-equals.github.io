@@ -1,4 +1,4 @@
-<div>
+<div class="register">
   <h1>Pick a registration:</h1>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDDDLRt7EB2SzjeOjlyesF403dRkAULPnApt1dzs9cbl9plw/viewform?usp=sf_link">Hacker</a>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScxMUDiPZ9ZZIm8iXmRrl1IBWHtLQqIo_mjKKWJdJybDeX5mA/viewform?usp=sf_link">Volunteer</a>
@@ -10,13 +10,13 @@
   margin-bottom:75px;
   text-align:center;
 }
-h1{
+.register h1{
   font-family:sans-serif;
   color:var(--green);
   font-weight:bold;
   font-size:40px;
 }
-a{
+.register a{
   margin:0px 60px;
   transition:background-color 0.2s ease;
   background-color:var(--green);
@@ -30,7 +30,7 @@ a{
   padding:20px;
   color:white;
 }
-a:hover{
+.register a:hover{
   background-color:var(--dkGreen);
 }
 </style>
