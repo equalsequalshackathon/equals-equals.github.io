@@ -1,4 +1,6 @@
-<img src="images/banner.svg">
+<div class="logo-space">
+  <img src="images/banner.svg">
+</div>
 
 <style>
 

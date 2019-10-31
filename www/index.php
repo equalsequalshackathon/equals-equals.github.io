@@ -5,22 +5,21 @@
 	<meta charset="utf-8">
 	<meta name="description" content="An annual hackathon at the University of Maryland that promotes diversity in tech">
 	<meta name="keywords" content="equals equals,diversity in tech,equality,hackathon,hackathons,university of maryland,college park hackathons,diversity">
-	<script src="jquery.min.js"></script>
-	<script src="scrolling.js"></script>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/scrolling.js"></script>
 	<script src="scripts/bootstrap.min.js"></script>
 	<link rel="icon" href="images/earth.ico">
 	<link rel="stylesheet" href="styles/bootstrap.min.css">
-	<link rel="stylesheet" href="values.css">
-	<link rel="stylesheet" href="content-box.css">
-	<link rel="stylesheet" href="people.css">
+	<link rel="stylesheet" href="styles/values.css">
+	<link rel="stylesheet" href="styles/content-box.css">
+	<link rel="stylesheet" href="styles/people.css">
 </head>
 <body>
-	<div class="component navbar"></div>
+	<?php include("components/navbar.php");?>
 	<div class="container content">
-		<div class="row component logo-space"></div>
+		<?php include("components/logo-space.php");?>
 		<div class="row" style="text-align:center">
-			<!--<a class="register" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Register</a>-->
-			<div class="component register"></div>
+			<?php include("components/register.php");?>
 			<img class="person waving" src="people/waving.svg">
 		</div>
 		<div class="row content-box" id="about">
@@ -52,7 +51,7 @@
 			<p>
 				Here's our official schedule for the 2019 EqualsEquals hackathon event (but it's still being finalized):
 			</p><br>
-			<div class="component schedule"></div>
+			<?php include("components/schedule.php");?>
 			<img class="person nicholas-lugo" src="people/nicholas-lugo.svg">
 			<img class="person computer" src="people/computer.svg">
 			<img class="person black-girl" src="people/black-girl.svg">
@@ -61,7 +60,7 @@
 		<div class="row content-box" id="staff">
 			<h1>Staff</h1>
 			<span>(The nerds who made this possible)</span>
-			<div class="component profiles"></div>
+			<?php include("components/profiles.php");?>
 			<img class="person thumbs-up" src="people/thumbs-up.svg">
 			<img class="person sleeping" src="people/sleeping.svg">
 			<img class="person redhead" src="people/redhead.svg">
@@ -87,12 +86,12 @@
 
 		<div class="row content-box" id="contact">
 			<h2 style="text-align:center;margin-top:20px">Find us on social media!</h2>
-			<div class="component social-media"></div>
+			<?php include("components/social-media.php");?>
 			<img class="person laptop" src="people/laptop.svg">
 			<img class="person meditating" src="people/meditating.svg">
 		</div>
 
-		<div class="row component footer"></div>
+		<?php include("components/footer.php");?>
 	</div>
 </body>
 </html>

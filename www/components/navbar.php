@@ -1,11 +1,13 @@
-<img class="icon" src="images/earth.svg">
-<span class="headers">
-  <span class="head" dest="about">About</span> |
-  <span class="head" dest="schedule">Schedule</span> |
-  <span class="head" dest="staff">Staff</span> |
-  <span class="head" dest="sponsors">Sponsors</span> |
-  <span class="head" dest="contact">Contact</span>
-</span>
+<div class="navbar">
+  <img class="icon" src="images/earth.svg">
+  <span class="headers">
+    <span class="head" dest="about">About</span> |
+    <span class="head" dest="schedule">Schedule</span> |
+    <span class="head" dest="staff">Staff</span> |
+    <span class="head" dest="sponsors">Sponsors</span> |
+    <span class="head" dest="contact">Contact</span>
+  </span>
+</div>
 
 <style>
 

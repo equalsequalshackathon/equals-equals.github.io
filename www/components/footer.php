@@ -1,9 +1,10 @@
 
-<!--<img src="images/landscape.jpg">-->
-<img src="people/group.svg">
-<div class="signature">
-    Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
-    Website by <a href="http://alexlugo.net/webdesign">Alex Lugo</a>
+<div>
+  <img src="people/group.svg">
+  <div class="signature">
+      Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
+      Website by <a href="http://alexlugo.net/webdesign">Alex Lugo</a>
+  </div>
 </div>
 
 <style>

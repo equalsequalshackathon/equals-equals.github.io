@@ -1,0 +1,36 @@
+<div>
+  <h2>Administration:</h2>
+  <img src="profiles/sean-brown.svg" title="Sean Brown">
+  <img src="profiles/tami.svg" title="Tami Olafunmiloye">
+
+  <br><br>
+
+  <h2>Web Developers:</h2>
+  <img src="profiles/alex-lugo.svg" title="Alex Lugo">
+  <img src="profiles/kelly-ngo.svg" title="Kelly Ngo">
+  <img src="profiles/tomer-krayzman.svg" title="Tomer Krayzman">
+  <img src="profiles/chidi-udeze.svg" title="Chidi Udeze">
+  <img src="profiles/bobby-ekwunazu.svg" title="Bobby Ekwunazu">
+
+  <br><br>
+
+  <h2>Staff:</h2>
+  <img src="profiles/rutu-ataliya.svg" title="Rutu Ataliya">
+  <img src="profiles/austin-brady.svg" title="Austin Brady">
+  <img src="profiles/corey-matthew.svg" title="Corey Matthew">
+
+  <br><br>
+
+  <h2>And a special thanks to:</h2>
+  <img src="profiles/coffee.svg" title="Lots of coffee">
+</div>
+
+<style>
+
+img{
+  height:auto;
+  width:80px;
+  padding:10px;
+}
+
+</style>
