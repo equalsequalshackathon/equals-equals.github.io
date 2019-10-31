@@ -8,12 +8,10 @@
 	<meta name="keywords" content="equals equals,diversity in tech,equality,hackathon,hackathons,university of maryland,college park hackathons,diversity">
 	<script src="scripts/jquery.min.js"></script>
 	<script src="scripts/scrolling.js"></script>
-	<script src="scripts/bootstrap.min.js"></script>
-	<link rel="icon" href="images/earth.ico">
-	<link rel="stylesheet" href="styles/bootstrap.min.css">
-	<link rel="stylesheet" href="styles/values.css">
-	<link rel="stylesheet" href="styles/content-box.css">
+	<link rel="stylesheet" href="styles/front-page.css">
+	<link rel="stylesheet" href="styles/main.css">
 	<link rel="stylesheet" href="styles/people.css">
+	<link rel="icon" href="images/earth.ico">
 </head>
 <body>
 	<?php include("components/navbar.php");?>
@@ -23,21 +21,32 @@
 			<?php include("components/register.php");?>
 			<img class="person waving" src="people/waving.svg">
 		</div>
+
+		<!-- About -->
 		<div class="row content-box" id="about">
 			<h1>EqualsEquals Hackathon</h1>
 			<span>(What is EqualsEquals?)</span>
-			<table><tr>
-				<td>
+			<div class="about-columns">
+				<div><div>
 					<img class="icon" src="images/laptop.svg"><br>
-					Equals Equals is a new kind of hackathon meant to introduce and expose underrepresented minorities to careers in technology and technology entrepreneurship. It's kind of like a design sprint and a hackathon had a baby, and it's name was Equals Equals.
-				</td><td>
+					<p>
+						Equals Equals is a new kind of hackathon meant to introduce and expose underrepresented minorities to careers in technology and entrepreneurship.
+						It's kind of like if a design sprint and a hackathon had a baby, and its name was Equals Equals.
+					</p>
+				</div></div>
+				<div><div>
 					<img class="icon" src="images/send.svg"><br>
-					Community and inclusion breeds innovation, excitement, and motivation to solve some pretty tough problems.
-				</td><td>
+					<p>
+						Community and inclusion breeds innovation, excitement, and motivation to solve some pretty tough problems.
+					</p>
+				</div></div>
+				<div><div>
 					<img class="icon" src="images/public.svg"><br>
-					Our hope is that this event will not only get underrepresented groups excited about technology and it's capabilities, but also about the impact it can have on the issues and communities that they are most passionate about.
-				</td>
-			</tr></table><br>
+					<p>
+						Our hope is that this event will not only get underrepresented groups excited about technology and it's capabilities, but also about the impact it can have on the issues and communities that they are most passionate about.
+					</p>
+				</div></div>
+			</div>
 			<p>EqualsEquals was founded by our benevolent ruler Sean:</p>
 			<img src="images/sean.jpg" style="border-radius:25px;height:200px;width:auto">
 			<p>

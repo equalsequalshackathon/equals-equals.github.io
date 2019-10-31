@@ -1,0 +1,18 @@
+/* About section */
+.about-columns{
+  grid-template-columns:33% 34% 33%;
+  text-align:center;
+  display:grid;
+}
+/*.about-columns >div{
+  min-height:100%;
+}*/
+.about-columns div{
+  height:calc(100% - 15px);
+  position:relative;
+  padding:5px;
+}
+.about-columns div > div {
+  border:solid 8px var(--green);
+  border-radius:25px;
+}

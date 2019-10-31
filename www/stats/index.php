@@ -4,19 +4,17 @@
 <head>
   <title>EqualsEquals Hackathon</title>
   <meta charset="utf-8">
-  <script src="jquery.min.js"></script>
-  <script src="scrolling.js"></script>
-  <script src="bootstrap.min.js"></script>
-  <script src="chart.bundle.js"></script>
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="values.css">
-  <link rel="stylesheet" href="content-box.css">
-  <link rel="stylesheet" href="people.css">
-  <link rel="stylesheet" href="stats.css">
+  <script src="../scripts/jquery.min.js"></script>
+  <script src="../scripts/scrolling.js"></script>
+  <script src="../scripts/chart.bundle.js"></script>
+  <link rel="stylesheet" href="../styles/values.css">
+  <link rel="stylesheet" href="../styles/content-box.css">
+  <link rel="stylesheet" href="../styles/people.css">
+  <link rel="stylesheet" href="../styles/stats.css">
 </head>
 
 <body>
-  <div class="component headbar"></div>
+  <?php include("../components/headbar.php");?>
   <div class="content container">
     <div class="row">
 

@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Preparing site for production..."
+wget -r localhost/equals 2> /dev/null
+mv localhost/equals ~/Desktop
+rmdir localhost
+pushd ~/Desktop/equals > /dev/null
+git init
+git remote add origin https://github.com/equalsequalshackathon/equalsequalshackathon.github.io.git
+git add .
+git commit -m "Update on $(date)"
+git push origin master
+popd > /dev/null
+rm -rf ~/Desktop/equals
