@@ -1,24 +1,25 @@
 /* Main */
 :root{
-  --logo-h:500px;
-  --logo-padding:75px;
+  --logo-padding:25px;
+  --navbar-font:30px;
   --img-side:90px;
   --img-pad:15px;
-  --navbar-font:30px;
+  --logo-h:500px;
   --navbar-h:calc(var(--navbar-font) + calc(var(--img-pad) * 2));
-  --gray:#4f4f4f;
-  --white:#f7f7f7;
-  --green:#59D167;
   --dkGreen:#31B240;
-  --blue:#6AEDED;
   --dkBlue:#14A5A5;
+  --white:#ffffff;
+  --green:#59D167;
+  --black:#333333;
+  --gray:#4f4f4f;
+  --blue:#6AEDED;
 }
 body{
   background-color:var(--white);
+  color:var(--black);
   overflow-x:hidden;
   font-size:18px;
 }
-
 
 /* Content and content boxes */
 .content{
@@ -36,7 +37,7 @@ body{
   margin:auto;
   margin-bottom:250px;
   position:relative;
-  color:var(--gray);
+  color:var(--black);
   width:70%;
 }
 .content-box .content-icon{
@@ -59,9 +60,8 @@ body{
   font-size:40px;
 }
 .content-box h2{
-  color:var(--gray);
+  color:var(--black);
   font-weight:bold;
-  margin-top:0;
 }
 .content-box .icon{
   height:100px;
@@ -81,12 +81,12 @@ body{
 .content-box td{
   padding:0 15px;
 }
-.content-box .sponsor{
+/*.content-box .sponsor{
   margin-bottom:25px;
   margin-right:50px;
   height:100px;
   width:auto;
-}
+}*/
 
 /* Footer */
 .footer img{
@@ -94,7 +94,7 @@ body{
 }
 .footer .signature{
   font-family:sans-serif;
-  background-color:black;
+  background-color:var(--black);
   color:var(--white);
   text-align:center;
   font-weight:bold;

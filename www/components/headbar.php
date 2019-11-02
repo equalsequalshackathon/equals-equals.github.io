@@ -30,7 +30,7 @@
     width:var(--img-side);
     left:var(--img-pad);
     top:calc(var(--navbar-h) - var(--img-rad));
-    border:solid 2px var(--gray);
+    border:solid 2px var(--black);
     border-radius:100%;
   }
 
